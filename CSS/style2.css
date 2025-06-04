@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Orbitron, sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+nav,
+footer {
+    background-color: #670D2F;
+    color: #c44473;
+}
+
+main {
+    background-color: #ddd9c3;
+    flex: 1;
+}
+
+header h1 {
+    font-family: "Tagesschrift", system-ui;
+    text-align: center;
+    color: #FEFAE0;
+    font-size: 56px;
+    padding-top: 16px;
+    border-bottom: #560b28 2px solid;
+}
+
+ul {
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 24px;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c44473;
+    font-size: 24px;
+    padding: 5px;
+    transition: 0.15s ease-in-out;
+}
+
+nav a:hover {
+    color: #a0365d;
+    text-decoration: underline;
+}
+
+.main-products article {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+.main-products article div {
+    display: inline-block;
+    /*Inline a los elementos. Mantiene las propiedad es width y heigh*/
+    margin: 0 auto;
+}
+
+#articleId:hover {
+    background-color: #afac99;
+    border: 2px solid #aa154eb9;
+    transform: scale(1.1);
+}
+
+#articleId {
+    transition: transform 0.25s;
+}
+
+main section article .product-info h2 {
+    color: #c44473;
+}
+
+main section article .product-info p {
+    color: #000000;
+    font-size: 16px;
+    width: 300px;
+    vertical-align: top;
+    text-wrap: balance;
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#advice {
+    color: gray;
+    margin: 15px auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #670D2F;
+    color: #c44473;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+footer li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #c44473;
+    font-size: 15px;
+}
+
+footer a:hover {
+    color: #af3c64;
+    transition: 0.15s ease-in-out;
+    text-decoration: underline;
+}
+
+@media(max-width: 431px) {
+    section.main-products {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section.main-products article {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section.main-productos img {
+        margin: 0 5px;
+    }
+
+    article.related {
+        flex-direction: column;
+        width: 100%;
+    }
+    article.related .product-list div {
+        width: 100%;
+    }
+}
