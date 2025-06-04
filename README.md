@@ -32,7 +32,7 @@ I’ve always been fascinated by what powers our computers. Instead of just coll
 ## Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/your-repo-name/main/assets/preview.png" alt="PC Component Showcase Preview" width="80%">
+  <img src="https://github.com/zArcane/first-page/blob/main/previewpng" alt="preview width="80%">
 </p>
 
 
