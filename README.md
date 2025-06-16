@@ -26,6 +26,7 @@ This page serves as a curated hub for various **PC components**. From high-end G
 ## Why I Made This
 
 I’ve always been fascinated by what powers our computers. Instead of just collecting hardware, I make a page about it — and hopefully help others build better systems, avoid mistakes, or just geek out like I do.
+Also, to deliver for my Web Development course.
 
 ---
 
